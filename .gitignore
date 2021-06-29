@@ -1,0 +1,25 @@
+*idea
+*~
+~*
+*.patch
+*.bak
+Thumbs.db
+.svn/
+*.json.gzip
+node_modules/
+dist
+/lib
+/es
+elasticsearch-*
+config/base.yaml
+yarn.lock
+package-lock.json
+components/**/*.js
+components/**/*.jsx
+!components/**/__tests__/**/*.js
+!components/**/__tests__/**/*.js.snap
+/.history
+# Docs templates
+*.tmp
+/.docz
+/.doc
